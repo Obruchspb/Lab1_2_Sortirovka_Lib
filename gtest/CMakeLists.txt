@@ -11,4 +11,4 @@ add_executable(test_g ${SOURSE})
 
 target_link_libraries(test_g PUBLIC gtest)
 target_link_libraries(test_g PUBLIC static_lib)
-target_link_libraries(test_g PUBLIC sort_dll)
+#target_link_libraries(test_g PUBLIC sort_dll)

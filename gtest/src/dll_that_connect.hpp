@@ -1,3 +1,3 @@
 
-void(*Func_Fast_Sort) (std::vector<int> *VectorRef, int LeftBoard, int RightBoard);
+typedef void(*dll_func) (std::vector<int> *VectorRef, int LeftBoard, int RightBoard);
 
